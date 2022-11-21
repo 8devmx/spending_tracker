@@ -22,7 +22,9 @@
     <div class="row">
       <div class="col-12">
         <p>Bienvenido a nuestro sistema</p>
-
+        <a href="modulos/gastos" class="btn btn-success">Gastos</a>
+        <a href="modulos/categorias" class="btn btn-primary">Categorías</a>
+        <a href="modulos/usuarios" class="btn btn-secondary">Usuarios</a>
       </div>
     </div>
   </div>
