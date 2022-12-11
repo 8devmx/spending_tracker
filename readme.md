@@ -1,5 +1,7 @@
 # Spending Tracker
 
+**NOTA** Para poder hacer funcionar el correo electrónico, es necesario que accedas a config/recovery.php y cambies la información solicitada. Te agrego un video en donde lo configuro. [Video Youtube](https://youtu.be/YKWCggi9WVw)
+
 ## Tabla de Contenido
 ***
 - [Spending Tracker](#spending-tracker)
