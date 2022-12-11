@@ -20,12 +20,12 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp-mail.outlook.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = '00104801@red.unid.mx';
-    $mail->Password   = 'Unid2020';
+    $mail->Username   = 'EMAIL_OUTLOOK';
+    $mail->Password   = 'CONTRASEÑA_OUTLOOK';
     $mail->Port       = 587;
 
-    $mail->setFrom('00104801@red.unid.mx', '8dev');
-    $mail->addAddress('abraham.opp@gmail.com', 'Usuario de Prueba');
+    $mail->setFrom('CORREO_ELECTRONICO_FROM', 'NOMBRE_FORM');
+    $mail->addAddress('CORREO_ELECTRONICO_PARA', 'NOMBRE_ELECTRONICO_PARA');
     $mail->isHTML(true);
     $mail->Subject = 'Recuperación de contraseña';
     $mail->Body    = 'Hola, este es un correo generado para solicitar tu recuperación de contraseña, por favor, visita la página de <a href="localhost/spending_tracker/change_password.php?id='.$row['id'].'">Recuperación de contraseña</a>';
